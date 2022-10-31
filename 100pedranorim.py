@@ -16,7 +16,6 @@ navegador = webdriver.Chrome()
 navegador.get("https://web.whatsapp.com/")
 
 # "site" eh um elemento que so existe quando o whatsapp ja fez o login
-#while len(find_element(By.ID, 'side')) < 1:
 while len(navegador.find_elements(by=By.ID, value='side')) < 1:  #enquanto o tamanho da lista for <1
   time.sleep(1) #espera 1 segundo
 
