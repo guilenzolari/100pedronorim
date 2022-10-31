@@ -1,2 +1,2 @@
 # 100pedronorim
-Projeto em python de automação do whats app para enviar mensagem para constatos armazenados em planilha do excel
+Projeto em python de automação do whatsapp para enviar mensagem para contatos armazenados em planilha do excel
